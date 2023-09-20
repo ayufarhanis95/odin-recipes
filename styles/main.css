@@ -2,6 +2,7 @@ body {
     background-color: rgb(228, 211, 193);
     color: rgb(92, 55, 15);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     
 }
 img {
@@ -11,15 +12,16 @@ img {
     
 }
 
-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+h1, figcaption {
+    text-align: center;
 }
 
-h1{
-    text-align: center;
+.recipe {
+    display: flex;
+    margin: 0 auto;
+    justify-content:center;
+
+
 }
 
 
