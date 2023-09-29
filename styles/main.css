@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(228, 211, 193);
     color: rgb(92, 55, 15);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     
 }
+
+h1 {
+    padding: 30px;
+}
+
 img {
-    width: 500px;
+    width: 700px;
     height: auto;
-    border-radius: 10%;
+    border-radius: 20px;
+    margin-left: 50px;
+    
     
 }
 
@@ -16,10 +31,17 @@ h1, figcaption {
     text-align: center;
 }
 
+figcaption {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 .recipe {
     display: flex;
-    margin: 0 auto;
     justify-content:center;
+    flex-wrap: wrap;
+    
+    
+    
 
 
 }
