@@ -19,70 +19,62 @@ h1 {
     padding: 30px;
 }
 
-img {
-    border-radius: 10px;
-    display: block;
-    
-    
-}
+
 
 .recipe {
     background-color: rgb(218, 177, 133);
     margin: 0 20% 0 20%;
     border-radius: 10px;
-    display: grid;
-    grid-template-areas: 
-    "two one"
-    "two three"
-    "two four"
-    "five five";
     
 
 }
 
+img {
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    
+    
+    
+}
+  
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
 
 .one {
-    grid-area: one;
-    padding: 10px 10px 10px 0;
-    border-bottom: 1px solid rgb(66,37,5,50%);
-    margin-left: -120px;
-    
-    
+    padding: 10px 0 0 10px;
 }
 
 .two {
-    grid-area: two;
-    margin-right: 120px;
-    padding: 130px 40px 60px 60px;
-    border-right: 1px solid rgb(66,37,5,50%);
-    
-    
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
 .three {
-    grid-area: three;
-    padding: 10px 10px 10px 0;
-    line-height: 1.5em;
+    padding: 10px 0 10px 10px;
     border-bottom: 1px solid rgb(66,37,5,50%);
-    margin-left: -120px;
+    
 }
 
 .four {
-    grid-area: four;
-    padding: 10px 10px 10px 0px;
-    line-height: 1.5em;
-    margin-left: -120px;
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid rgb(66,37,5,50%);
+}
 
+.five {
+    padding: 10px 0 10px 10px;
+    
 }
 
 .four ul, .five ol {
     padding-left: 30px;
 }
 
-.five {
-    grid-area: five;
+.three, .four,.five {
     line-height: 1.5em;
-    padding: 10px 10px 10px 20px;
-    border-top: 1px solid rgb(66,37,5,50%);
 }
