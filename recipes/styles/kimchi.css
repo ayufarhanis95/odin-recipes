@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(228, 211, 193);
+    color: rgb(92, 55, 15);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    
+    
+}
+
+.recipe {
+    background-color: rgb(218, 177, 133);
+    margin: 0 20% 0 20%;
+    
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+    "two one"
+    "two three"
+    "two four"
+    "five five";
+    
+
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    
+    
+}
+  
+
+
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.one {
+    grid-area: one;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid rgb(66,37,5,50%);
+    
+    
+}
+
+.two {
+    grid-area: two;
+    padding: 130px 40px 60px 60px;
+    border-right: 1px solid rgb(66,37,5,50%);
+    
+    
+}
+
+.three {
+    grid-area: three;
+    padding: 10px 10px 10px 0;
+    line-height: 1.5em;
+    border-bottom: 1px solid rgb(66,37,5,50%);
+    min-width: 0px;
+}
+
+.four {
+    grid-area: four;
+    padding: 10px 10px 10px 0px;
+    line-height: 1.5em;
+
+}
+
+.four ul, .five ol {
+    padding-left: 30px;
+}
+
+.five {
+    grid-area: five;
+    line-height: 1.5em;
+    padding: 10px 10px 10px 20px;
+    border-top: 1px solid rgb(66,37,5,50%);
+}
+
+
